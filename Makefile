@@ -17,6 +17,6 @@ laravel:
 		exit 1; \
 	fi; \
 	mkdir -p $(path); \
-	cp -R ./laravel/laravel-12-1-0/* $(path); \
+	cp -R ./laravel/laravel-12-4-0/* $(path); \
 	cp $(path)/docker/.env.example $(path)/docker/.env; \
 	echo "Estructura de proyecto creada en: $(path)"

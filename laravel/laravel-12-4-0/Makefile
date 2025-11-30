@@ -5,7 +5,7 @@ USER_ID    := $(shell id -u)
 GROUP_ID   := $(shell id -g)
 
 PHP_VERSION          := 8.4
-LARAVEL_VERSION		 := 12.1.0
+LARAVEL_VERSION		 := 12.4.0
 COMPOSER_IMAGE		 := composer:2.8.9
 
 create:
